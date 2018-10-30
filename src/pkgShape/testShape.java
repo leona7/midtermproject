@@ -54,7 +54,7 @@ public class testShape {
 		// Test area()
 		assertEquals(cube.area(), 96);
 
-		// Testing perimeter exception method
+		// Testing perimeter exception method (lambda expression)
 		Assertions.assertThrows(UnsupportedOperationException.class, () -> cube.perimeter());
 
 		// Test volume
