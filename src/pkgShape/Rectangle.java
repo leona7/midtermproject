@@ -9,7 +9,7 @@ public class Rectangle extends Shape implements Comparable {
 		this.iWidth = iWidth;
 		this.iLength = iLength;
 	}
-
+// getters and setters
 	public int getiWidth() {
 		return iWidth;
 	}

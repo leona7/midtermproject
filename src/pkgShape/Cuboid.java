@@ -9,7 +9,7 @@ public class Cuboid extends Rectangle {
 		super(iWidth, iLength);
 		this.iDepth = iDepth;
 	}
-
+	// getters and setters
 	public int getiDepth() {
 		return iDepth;
 	}
